@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "result": {
+    "topLevelField": "deliveryProfileUpdate",
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 100,
+        "actualQueryCost": 100,
+        "throttleStatus": {
+          "maximumAvailable": 2000,
+          "currentlyAvailable": 1900,
+          "restoreRate": 100
+        }
+      }
+    },
+    "data": {
+      "deliveryProfileUpdate": {
+        "profile": {
+          "id": "gid://shopify/DeliveryProfile/135133921570",
+          "name": "General profile",
+          "default": true,
+          "activeMethodDefinitionsCount": 2,
+          "locationsWithoutRatesCount": 0,
+          "zoneCountryCount": 1
+        },
+        "userErrors": []
+      }
+    }
+  }
+}

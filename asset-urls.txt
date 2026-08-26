@@ -1,0 +1,44 @@
+Uploading file (webdev private): hero.png (size: 2205087 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/hero_3b08adbd.png
+Uploading file (webdev private): story.png (size: 2244662 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/story_dfa2b841.png
+Uploading file (webdev private): rings.png (size: 1181825 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/rings_d27a16a1.png
+Uploading file (webdev private): necklaces.png (size: 2343272 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/necklaces_a068a0ee.png
+Uploading file (webdev private): bracelets.jpg (size: 1925911 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/bracelets_ade009ac.jpg
+Uploading file (webdev private): earrings.png (size: 1034369 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/earrings_05dc5414.png
+Uploading file (webdev private): bracelet-1.jpg (size: 704210 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/bracelet-1_6485d506.jpg
+Uploading file (webdev private): bracelet-2.jpg (size: 1577722 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/bracelet-2_52b31233.jpg
+Uploading file (webdev private): bracelet-3.jpg (size: 1947385 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/bracelet-3_6de846e3.jpg
+Uploading file (webdev private): bracelet-4.jpg (size: 1545851 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/bracelet-4_18ea9b6b.jpg
+
+========== Upload Summary ==========
+[SUCCESS] hero.png -> /manus-storage/hero_3b08adbd.png
+[SUCCESS] story.png -> /manus-storage/story_dfa2b841.png
+[SUCCESS] rings.png -> /manus-storage/rings_d27a16a1.png
+[SUCCESS] necklaces.png -> /manus-storage/necklaces_a068a0ee.png
+[SUCCESS] bracelets.jpg -> /manus-storage/bracelets_ade009ac.jpg
+[SUCCESS] earrings.png -> /manus-storage/earrings_05dc5414.png
+[SUCCESS] bracelet-1.jpg -> /manus-storage/bracelet-1_6485d506.jpg
+[SUCCESS] bracelet-2.jpg -> /manus-storage/bracelet-2_52b31233.jpg
+[SUCCESS] bracelet-3.jpg -> /manus-storage/bracelet-3_6de846e3.jpg
+[SUCCESS] bracelet-4.jpg -> /manus-storage/bracelet-4_18ea9b6b.jpg
+=====================================
+Total: 10, Success: 10, Failed: 0

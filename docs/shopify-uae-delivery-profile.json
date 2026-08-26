@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "result": {
+    "topLevelField": "shop",
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 555,
+        "actualQueryCost": 7,
+        "throttleStatus": {
+          "maximumAvailable": 2000,
+          "currentlyAvailable": 1993,
+          "restoreRate": 100
+        }
+      }
+    },
+    "data": {
+      "shop": {
+        "name": "Valerie jewelry",
+        "myshopifyDomain": "valerie-jewelry-vzkuj01z.myshopify.com",
+        "currencyCode": "AED"
+      },
+      "deliveryProfiles": {
+        "nodes": [
+          {
+            "id": "gid://shopify/DeliveryProfile/135133921570",
+            "name": "General profile",
+            "default": true,
+            "activeMethodDefinitionsCount": 2,
+            "locationsWithoutRatesCount": 0,
+            "zoneCountryCount": 1,
+            "profileLocationGroups": [
+              {
+                "locationGroup": {
+                  "id": "gid://shopify/DeliveryLocationGroup/137115664674"
+                },
+                "locationGroupZones": {
+                  "nodes": [
+                    {
+                      "zone": {
+                        "id": "gid://shopify/DeliveryZone/600255070498",
+                        "name": "United Arab Emirates",
+                        "countries": [
+                          {
+                            "id": "gid://shopify/DeliveryCountry/1447354138914",
+                            "name": "United Arab Emirates",
+                            "translatedName": "United Arab Emirates"
+                          }
+                        ]
+                      },
+                      "methodDefinitions": {
+                        "nodes": [
+                          {
+                            "id": "gid://shopify/DeliveryMethodDefinition/1179834810658",
+                            "name": "Same-day delivery",
+                            "description": "Same-day delivery within the UAE",
+                            "active": true,
+                            "rateProvider": {
+                              "__typename": "DeliveryRateDefinition",
+                              "id": "gid://shopify/DeliveryRateDefinition/1100811108642",
+                              "price": {
+                                "amount": "15.0",
+                                "currencyCode": "AED"
+                              }
+                            }
+                          },
+                          {
+                            "id": "gid://shopify/DeliveryMethodDefinition/1179834843426",
+                            "name": "Next-day delivery",
+                            "description": "Next-day delivery within the UAE",
+                            "active": true,
+                            "rateProvider": {
+                              "__typename": "DeliveryRateDefinition",
+                              "id": "gid://shopify/DeliveryRateDefinition/1100811141410",
+                              "price": {
+                                "amount": "12.0",
+                                "currencyCode": "AED"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

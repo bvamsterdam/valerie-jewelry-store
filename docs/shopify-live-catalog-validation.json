@@ -1,0 +1,42 @@
+{
+  "validated_at": "2026-08-23",
+  "shop": {
+    "name": "Valerie jewelry",
+    "myshopifyDomain": "valerie-jewelry-vzkuj01z.myshopify.com",
+    "currencyCode": "AED"
+  },
+  "passed": true,
+  "counts": {
+    "expected_products": 55,
+    "live_products": 55,
+    "expected_variants": 100,
+    "live_variants": 100,
+    "live_unique_skus": 100,
+    "expected_media_associations": 288,
+    "live_media_associations": 288,
+    "live_ready_media": 288,
+    "expected_unique_source_media_urls": 285,
+    "draft_products": 55,
+    "published_products": 0,
+    "non_taxable_variants": 100,
+    "shipping_required_variants": 100,
+    "untracked_variants": 100,
+    "deny_policy_variants": 100
+  },
+  "collection_counts": {
+    "Bracelets & Bangles": 26,
+    "Earrings": 7,
+    "Jewellery Sets": 2,
+    "Necklaces": 12,
+    "Rings": 8
+  },
+  "product_type_counts": {
+    "Bracelet & Bangles": 26,
+    "Earrings": 7,
+    "Jewellery Set": 2,
+    "Necklace": 12,
+    "Ring": 8
+  },
+  "mismatch_count": 0,
+  "mismatches": []
+}

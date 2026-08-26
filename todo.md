@@ -1,0 +1,86 @@
+# Project TODO
+
+- [x] Preserve Valerie Jewelry's warm ivory, gold, charcoal, Cormorant Garamond, and Montserrat design system across all pages.
+- [x] Add a sticky mobile-first global header with logo, collection links, mobile navigation, and bag item count.
+- [x] Build a homepage hero using the existing Valerie brand imagery and the “Timeless Jewelry, Modern Soul” / “Crafted for You” messaging.
+- [x] Build the promotional ticker for announcements or offers.
+- [x] Build the four-category collection grid for Rings, Necklaces, Bracelets, and Earrings.
+- [ ] Build and verify a Shopify-powered featured-products section with live data plus loading, empty, preview-fallback, and error states.
+- [x] Build the homepage brand-story section using the existing Valerie story content and imagery.
+- [x] Build the homepage quality and values statements.
+- [ ] Verify the completed Shop / Collections integration against live Shopify catalog data after store provisioning.
+- [x] Add category filter tabs for All Jewelry, Rings, Necklaces, Bracelets, and Earrings.
+- [x] Build responsive product cards with image, category, title, price, hover state, and product links.
+- [ ] Verify the completed dynamic product-detail route against live Shopify product handles and variants after store provisioning.
+- [x] Build a multi-image product gallery with thumbnails and accessible controls.
+- [x] Display product title, price, variant availability, and the exact “Add to Bag” action label.
+- [x] Present materials, sizing, finish, and care instructions as scannable product information.
+- [x] Display the exact trust labels: free insured shipping, gift box, 30-day returns, lifetime warranty.
+- [x] Build a slide-out bag drawer rather than a separate cart page.
+- [x] Add bag line-item images, names, variants, prices, quantity controls, removal, subtotal, loading, empty, and error states.
+- [ ] Validate the completed bag integration end to end with real Shopify add, update, remove, and native-checkout operations.
+- [x] Build the individual About / Our Story page.
+- [x] Build the individual Shipping & Returns page.
+- [x] Build the individual Ring Sizing Guide page.
+- [x] Build the individual Care Instructions page.
+- [x] Build the individual Contact Us page with an accessible contact form or verified contact method.
+- [x] Build the individual Privacy Policy page.
+- [x] Build the individual Terms of Service page.
+- [x] Build the global footer with collection, company, customer-care, and social navigation.
+- [x] Add Instagram, Pinterest, and Facebook links with safe placeholder handling until verified URLs are provided.
+- [x] Add responsive behavior for mobile, tablet, and desktop layouts.
+- [x] Add accessible focus states, semantic headings, image alt text, keyboard navigation, and reduced-motion support.
+- [x] Add route-specific page titles and meta descriptions.
+- [x] Add canonical tags and Open Graph metadata.
+- [x] Add robots.txt and a sitemap covering every public route.
+- [x] Reuse the current Valerie product imagery and approved brand assets without storing deployment media inside the project directory.
+- [x] Add Vitest coverage for brand content, route metadata, Shopify data normalization, cart behavior, and exact required labels.
+- [x] Run type checking, unit tests, and a production build with no unresolved errors.
+- [x] Visually verify the homepage, collections page, product page, bag drawer, and informational pages at desktop and mobile breakpoints.
+- [x] Document which launch claims, policies, social URLs, contact information, market, currency, and Shopify settings still require owner confirmation.
+- [x] Review todo.md and mark every completed requirement before creating the first delivery checkpoint.
+- [x] Provision a new Shopify development store with a temporary myshopify.com URL that the owner can claim.
+- [ ] Configure the development store for Shopify-backed products, cart, checkout, orders, inventory, and fulfillment.
+- [x] Document the store-transfer and claim process, including the Shopify plan requirement after transfer.
+- [x] Keep www.valerie-jewelry.com disconnected until the owner has claimed the store and approved launch.
+- [x] Complete Shopify Partner account verification required by Shopify before a transferable development store can be created.
+- [x] Create and verify the transferable Valerie Jewelry development store after Shopify corrects the Partner organization permissions.
+- [ ] Confirm the Shop and featured-products queries render real Storefront API products without relying on preview fallback data.
+- [ ] Confirm real Shopify handle-based product and variant data on the product-detail route.
+- [ ] Confirm a real Shopify bag can add, update, remove, calculate subtotal, and redirect to native checkout.
+- [x] Verify the newly created client-transfer store identity, myshopify.com domain, currency, and active owner account before importing catalog data.
+- [x] Audit the authoritative Valerie Jewelry source catalog and produce a deduplicated manifest of every real product, SKU, variant, price, description, material, image, and collection.
+- [x] Import every verified Valerie Jewelry product and variant into the new Shopify store without fabricating SKUs, inventory quantities, ratings, reviews, or testimonials.
+- [x] Upload and attach the correct source product media, assign product types and collections, and keep imported products unpublished until catalog validation is complete.
+- [ ] Validate imported Shopify product and variant counts, SKU uniqueness, prices, media, collections, statuses, and Storefront API visibility against the source manifest.
+- [x] Diagnose the Shopify “Unauthorized Access” route under the Valerie jewelry owner session, restore access without creating a duplicate store, and verify the active integration targets `valerie-jewelry-vzkuj01z` before importing SKUs.
+- [ ] Use only `valerietimelessjewelry@gmail.com` and `valerie-jewelry-vzkuj01z`; do not access or reference `Valeriejewelry1@gmail.com` during the remaining migration.
+- [x] Obtain an owner-approved full SKU source file or product manifest because the approved Shopify store is empty and the public site exposes only one verified product.
+- [x] Audit every worksheet in `Valerie-ManusFinalsheet.xlsx` for Shopify product, variant, SKU, pricing, inventory, media, category, collection, SEO, tax, shipping, status, and publication completeness.
+- [x] Produce a row-level validation report covering missing fields, duplicate SKUs, invalid values, inconsistent variants, inaccessible media, and Shopify import blockers.
+- [x] Present the workbook findings and required owner decisions before creating or updating any Shopify products.
+- [x] Generate a corrected final row-level validation file that reconciles each embedded workbook image to its SKU and removes false no-image blockers while retaining true import blockers.
+- [x] Safely inventory `Allpictures.rar`, verify every image file, and map high-resolution assets to workbook item codes and Shopify SKUs without executing archive contents.
+- [x] Map `IMG-20260511-WA0056.jpg` to workbook item code `2978` after verifying its exact SKU and product group.
+- [x] Prepare an English-primary bilingual import manifest and translation plan preserving available Arabic titles, descriptions, and bullets.
+- [ ] Configure and verify a customer-selectable Arabic locale in Shopify and the storefront after the draft English catalog exists.
+- [x] Mark all sellable jewelry variants as physical products requiring shipping, with inventory temporarily untracked and zero-stock policy set to deny when tracking is enabled.
+- [ ] Configure UAE delivery choices as same-day AED 15 and next-day AED 12, and validate a safe supported method for the AED 5 COD surcharge.
+- [x] Configure the General shipping profile as UAE-only with active flat rates `Same-day delivery` at AED 15 and `Next-day delivery` at AED 12, removing the conflicting legacy AED 25/free domestic methods and AED 70 international zone.
+- [ ] Obtain owner approval for a specific COD implementation; do not activate COD or claim the AED 5 payment-method surcharge is configured because native Shopify manual COD does not add that surcharge automatically.
+- [ ] Keep products non-taxable and do not add 5% VAT while Valerie Jewelry is not VAT-registered; retain the Excel AED prices unchanged on product and checkout lines.
+- [x] Create the approved Bracelets & Bangles, Necklaces, Rings, Earrings, and Jewellery Sets collections with reviewed subtype tags.
+- [x] Import and validate only the owner-approved item `2978` / SKU `VAL-NK-2978-G` as the first draft, unpublished Shopify test product before importing any of the remaining 54 products / 99 variants.
+- [x] Import the owner-authorized remaining 54 products / 99 variants as draft, unpublished, non-taxable Shopify catalog items using the validated manifest, approved media, physical-shipping settings, untracked inventory, `DENY` policy, and preserved Arabic content.
+- [x] Validate the completed 55-product / 100-variant Shopify catalog against the approved manifest, including SKU uniqueness, exact AED prices, 285 unique source media URLs, 288 product-media associations, collections, tags, shipping, inventory, tax, and publication status.
+- [x] Verify at product and variant level that all 100 live Shopify variants use exact spreadsheet AED prices and are non-taxable.
+- [x] Import or persist Arabic titles and descriptions for every eligible remaining Shopify product through translations or structured metafields, then verify the Arabic fields without publishing the products or activating the locale.
+- [ ] Validate a real Shopify cart and native-checkout flow to confirm checkout lines retain the exact spreadsheet AED prices and add no tax while the products remain non-taxable.
+- [ ] Confirm the project-level Shopify integration targets the existing `valerie-jewelry-vzkuj01z.myshopify.com` client-transfer store rather than provisioning or using another store.
+- [ ] Adapt the frontend and server to consume the connected Shopify catalog, product, and cart APIs while keeping draft/unpublished catalog items hidden from public customers.
+- [ ] Show a clear publication-aware preview state when Shopify correctly returns no public products because all 55 products remain draft and unpublished.
+- [ ] Validate homepage featured products, collection filters, handle-based product details, bag add/update/remove, subtotal, and checkout handoff against the connected store wherever Shopify’s unpublished client-transfer limitations permit.
+- [ ] Replace the project runtime’s unintended `valeriejewel-bercugsj-anchor-nebula-kztg0rp0.myshopify.com` binding with the verified existing `valerie-jewelry-vzkuj01z.myshopify.com` store without deleting or modifying either store unintentionally.
+- [ ] Create and securely store a Storefront API credential for the existing Valerie Jewelry store, using the project secret manager and never exposing the token in code, logs, documentation, or chat.
+- [ ] Reconcile the storefront server’s Shopify environment-variable names with the securely injected existing-store credentials and cover the corrected configuration with Vitest.
+- [ ] Diagnose and resolve the recurring Shopify `Unauthorized Access` error for the existing `valerie-jewelry-vzkuj01z.myshopify.com` store before making any frontend, catalog, payment, domain, or launch change.
